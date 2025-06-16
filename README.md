@@ -121,6 +121,23 @@ Phase 5: Visualisasi
 - Screenshot dashboard digunakan untuk laporan
 
 ---
+
+Contoh Format Data Kafka 
+
+```{
+  "symbol": "AAPL",
+  "price": 194.12,
+  "volume": 20839500,
+  "timestamp": "2025-06-16 10:15:00"
+}```
+
+```CREATE TABLE stock_prices_cleaned (
+  id SERIAL PRIMARY KEY,
+  symbol VARCHAR(10),
+  price FLOAT,
+  volume BIGINT,
+  timestamp TIMESTAMP
+)```
 ## 📁 Struktur Folder
 
 ├── data/ # Dataset saham (CSV)
