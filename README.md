@@ -132,6 +132,7 @@ Contoh Format Data Kafka
 }```
 
 ---
+
 ## 📁 Struktur Folder
 
 ├── data/ # Dataset saham (CSV)
