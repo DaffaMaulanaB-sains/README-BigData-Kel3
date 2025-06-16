@@ -21,7 +21,7 @@ Proyek ini dibuat sebagai bagian dari tugas akhir mata kuliah **Big Data (EAS)**
 ## 🎯 Tujuan Proyek
 Membangun sistem end-to-end yang mampu:
 - Mengalirkan data historikal saham secara simulasi real-time menggunakan Kafka.
-- Memproses data tersebut dengan PySpark Structured Streaming.
+- Memproses data tersebut dengan KafkaConsumer.
 - Memprediksi pergerakan harga saham menggunakan model time series.
 - Menampilkan hasil dalam bentuk dashboard interaktif.
 
@@ -29,7 +29,7 @@ Membangun sistem end-to-end yang mampu:
 ## 🧱 Arsitektur Sistem
 
 1. **Data Ingestion:** Yahoo Finance API → Kafka (simulasi real-time)
-2. **Real-Time Processing:** PySpark Structured Streaming
+2. **Real-Time Processing:** KafkaConsumer
 3. **Storage:** PostgreSQL
 4. **Machine Learning:** Model ARIMA / regresi (PySpark MLlib)
 5. **Visualization:** Metabase & Streamlit Dashboard
@@ -39,7 +39,7 @@ Membangun sistem end-to-end yang mampu:
 | Komponen            | Teknologi                      |
 |---------------------|-------------------------------|
 | Data Ingestion      | Yahoo Finance API, Apache Kafka |
-| Stream Processing   | PySpark Structured Streaming   |
+| Stream Processing   | (KafkaConsumer) + psycopg2 |
 | Data Storage        | PostgreSQL                     |
 | Machine Learning    | PySpark MLlib (Regression)     |
 | Visualisasi         | Metabase, Streamlit            |
@@ -56,7 +56,7 @@ Membangun sistem end-to-end yang mampu:
    Data dikirim bertahap ke Kafka agar seolah-olah real-time.
 
 3. **Stream Processing:**  
-   PySpark melakukan cleaning dan transformasi lalu menyimpan ke PostgreSQL.
+   KafkaConsumer melakukan cleaning dan transformasi lalu menyimpan ke PostgreSQL.
 
 4. **Modeling:**  
    Membangun model prediksi harga saham dengan regresi atau ARIMA.
