@@ -10,7 +10,7 @@ Proyek ini dibuat sebagai bagian dari tugas akhir mata kuliah **Big Data (EAS)**
 
 ---
 
-## 👥 Anggota Kelompok 3
+## 👥 Kelompok 3
 - Sigit Triyono (23083010071)
 - Raditya Hylmi Maulana Putra (23083010083)  
 - Muhammad Maulana Yusuf (23083010094)  
