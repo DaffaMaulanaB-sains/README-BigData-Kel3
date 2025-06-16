@@ -88,7 +88,7 @@ Panduan Setup
 
 2. Instalasi & Setup
 
-| docker-compose up -d |
+``` docker-compose up -d ```
 
 Docker akan menjalankan:
 - Kafka (Broker & Zookeeper)
@@ -98,6 +98,7 @@ Docker akan menjalankan:
 ---
 
 Penjelasan Per Fase
+
 Phase 1: Environment Setup
 - Instalasi Docker, Python, dan pustaka (yfinance, kafka-python, psycopg2, dll.)
 - Setup PostgreSQL & pembuatan tabel stock_prices_cleaned
