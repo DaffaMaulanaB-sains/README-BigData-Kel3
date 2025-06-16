@@ -131,15 +131,6 @@ Contoh Format Data Kafka
   "timestamp": "2025-06-16 10:15:00"
 }```
 
-
-```CREATE TABLE stock_prices_cleaned (
-  id SERIAL PRIMARY KEY,
-  symbol VARCHAR(10),
-  price FLOAT,
-  volume BIGINT,
-  timestamp TIMESTAMP
-)```
-
 ---
 ## 📁 Struktur Folder
 
