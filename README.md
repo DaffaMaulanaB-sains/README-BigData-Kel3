@@ -124,9 +124,16 @@ Phase 5: Visualisasi
 
 Contoh Format Data Kafka 
 
-```{
+{
   "symbol": "AAPL",
   "price": 194.12,
   "volume": 20839500,
   "timestamp": "2025-06-16 10:15:00"
 }
+
+Catatan Tambahan
+Data tidak benar-benar real-time. Karena pengambilan dilakukan hari Minggu (pasar tutup), data yang digunakan adalah data historikal antara Maret hingga Juni untuk disimulasikan sebagai aliran data real-time.
+
+Karena kendala koneksi PySpark ke PostgreSQL, pemrosesan streaming digantikan dengan kafka-python dan psycopg2.
+
+Model prediksi menggunakan ARIMA yang cocok untuk analisis time-series.
