@@ -96,6 +96,30 @@ Docker akan menjalankan:
 - Metabase (localhost:3000)
 
 ---
+
+Penjelasan Per Fase
+Phase 1: Environment Setup
+- Instalasi Docker, Python, dan pustaka (yfinance, kafka-python, psycopg2, dll.)
+- Setup PostgreSQL & pembuatan tabel stock_prices_cleaned
+
+Phase 2: Data Ingestion (Kafka Producer)
+- Script kafka_producer_stock.py mengambil data historikal 60 hari terakhir
+- Data dikirimkan satu per satu per menit ke topik stock_prices
+
+Phase 3: Pemrosesan Streaming Simulasi
+- Gunakan kafka_consumer_to_postgres.py untuk membaca topik dari Kafka
+- Data dibersihkan, konversi tipe dilakukan, lalu disimpan ke PostgreSQL
+
+Phase 4: Pemodelan Machine Learning
+- Script ml_training_batch.py membaca data dari PostgreSQL
+- Model ARIMA dibangun untuk prediksi harga saham
+
+Phase 5: Visualisasi
+- Hubungkan Metabase ke database stockdb
+- Buat dashboard dinamis (filter berdasarkan simbol saham & tanggal)
+- Screenshot dashboard digunakan untuk laporan
+
+---
 ## 📁 Struktur Folder
 
 ├── data/ # Dataset saham (CSV)
