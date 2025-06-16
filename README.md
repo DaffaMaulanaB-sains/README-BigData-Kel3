@@ -144,3 +144,13 @@ Model prediksi menggunakan ARIMA yang cocok untuk analisis time-series.
 
 ![WhatsApp Image 2025-06-16 at 22 17 04_8b471ca7](https://github.com/user-attachments/assets/4375c338-0ae6-427a-bbbe-3a607a43c2b5)
 
+---
+## 🗂️ Struktur Direktori
+
+├── data/ # Dataset saham (CSV)
+├── kafka_stream/ # Script simulasi Kafka Producer
+├── kafka_consumer_to_postgres/ # PySpark structured streaming
+├── ml_training_batch/ # Notebook ML model (ARIMA, Regression)
+├── visualization/ # Metabase config
+├── docker-compose.yml # Konfigurasi Docker
+└── README.md # Dokumentasi proyek
