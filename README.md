@@ -132,13 +132,3 @@ Contoh Format Data Kafka
 }
 
 ---
-
-## 📁 Struktur Folder
-
-├── data/ # Dataset saham (CSV)
-├── kafka_stream/ # Script simulasi Kafka Producer
-├── spark_streaming/ # PySpark structured streaming
-├── modeling/ # Notebook ML model (ARIMA, Regression)
-├── visualization/ # Streamlit & Metabase config
-├── docker-compose.yml # Konfigurasi Docker
-└── README.md # Dokumentasi proyek
