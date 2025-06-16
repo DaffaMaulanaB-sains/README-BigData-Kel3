@@ -79,6 +79,23 @@ Membangun sistem end-to-end yang mampu:
 
 ---
 
+Panduan Setup
+1. Prasyarat
+- Python 3.8+
+- Docker & Docker Compose
+- Kafka (melalui Docker)
+- PostgreSQL (melalui Docker)
+
+2. Instalasi & Setup
+
+| docker-compose up -d |
+
+Docker akan menjalankan:
+- Kafka (Broker & Zookeeper)
+- PostgreSQL (db: stockdb)
+- Metabase (localhost:3000)
+
+---
 ## 📁 Struktur Folder
 
 ├── data/ # Dataset saham (CSV)
