@@ -138,3 +138,6 @@ Data tidak benar-benar real-time. Karena pengambilan dilakukan hari Minggu (pasa
 Karena kendala koneksi PySpark ke PostgreSQL, pemrosesan streaming digantikan dengan kafka-python dan psycopg2.
 
 Model prediksi menggunakan ARIMA yang cocok untuk analisis time-series.
+
+![WhatsApp Image 2025-06-16 at 22 17 04_8b471ca7](https://github.com/user-attachments/assets/4375c338-0ae6-427a-bbbe-3a607a43c2b5)
+
