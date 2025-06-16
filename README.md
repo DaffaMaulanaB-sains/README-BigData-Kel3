@@ -1,5 +1,6 @@
 # README-BigData-Kel3
-README BigData Kelompok 3, (EAS) "REAL-TIME DATA ENGINEERING AND PREDICTIVE MODELING FOR TOP US STOCK USING PYSPARK"
+Laporan README Kelompok 3 Kelas Big Data A
+LAPORAN PROJECT AKHIR (EAS) "REAL-TIME DATA ENGINEERING AND PREDICTIVE MODELING FOR TOP US STOCK USING PYSPARK"
 # 📊 Big Data Project - Kelompok 3
 
 Proyek ini dibuat sebagai bagian dari tugas akhir mata kuliah **Big Data (EAS)** dengan topik:
