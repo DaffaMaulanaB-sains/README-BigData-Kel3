@@ -134,6 +134,7 @@ CREATE TABLE stock_prices_cleaned (id SERIAL PRIMARY KEY, symbol VARCHAR(10), pr
 ---
 
 Catatan Tambahan
+...
 Data tidak benar-benar real-time. Karena pengambilan dilakukan hari Minggu (pasar tutup), data yang digunakan adalah data historikal antara Maret hingga Juni untuk disimulasikan sebagai aliran data real-time.
 
 Karena kendala koneksi PySpark ke PostgreSQL, pemrosesan streaming digantikan dengan kafka-python dan psycopg2.
