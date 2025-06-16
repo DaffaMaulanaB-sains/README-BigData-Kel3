@@ -124,7 +124,7 @@ Phase 5: Visualisasi
 
 Contoh Format Data Kafka 
 
-{
+```{
   "symbol": "AAPL",
   "price": 194.12,
   "volume": 20839500,
