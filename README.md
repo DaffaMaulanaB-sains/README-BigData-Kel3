@@ -129,13 +129,7 @@ Phase 5: Visualisasi
 ## 🗄 Struktur Tabel PostgreSQL
 
 ```sql
-CREATE TABLE stock_prices_cleaned (
-  id SERIAL PRIMARY KEY,
-  symbol VARCHAR(10),
-  price FLOAT,
-  volume BIGINT,
-  timestamp TIMESTAMP
-);--
+CREATE TABLE stock_prices_cleaned (id SERIAL PRIMARY KEY, symbol VARCHAR(10), price FLOAT, volume BIGINT, timestamp TIMESTAMP);
 
 ---
 
