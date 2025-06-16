@@ -129,7 +129,7 @@ Contoh Format Data Kafka
   "price": 194.12,
   "volume": 20839500,
   "timestamp": "2025-06-16 10:15:00"
-}```
+}
 
 ---
 
