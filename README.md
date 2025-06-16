@@ -26,6 +26,19 @@ Membangun sistem end-to-end yang mampu:
 - Menampilkan hasil dalam bentuk dashboard interaktif.
 
 ---
+
+## ✨ Fitur-Fitur Utama
+
+✅ **Simulasi Real-Time Data Streaming** menggunakan Kafka  
+🔄 **Processing & Cleaning** data dengan Python dan PySpark  
+📈 **Prediksi Harga Saham** menggunakan model ARIMA (time series)  
+📊 **Dashboard Interaktif** untuk menampilkan:
+- Persentase saham naik/turun  
+- Top 5 gainers dan losers  
+- Volume spike terbesar  
+- Tren harga saham utama (TSLA, AAPL, AMZN, dll)
+
+---
 ## 🧱 Arsitektur Sistem
 
 1. **Data Ingestion:** Yahoo Finance API → Kafka (simulasi real-time)
