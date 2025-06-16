@@ -124,12 +124,10 @@ Phase 5: Visualisasi
 
 ##🗄 Struktur Tabel PostgreSQL
 
-```{
-  "symbol": "AAPL",
+```{"symbol": "AAPL",
   "price": 194.12,
   "volume": 20839500,
-  "timestamp": "2025-06-16 10:15:00"
-}```
+  "timestamp": "2025-06-16 10:15:00"}```
 
 Catatan Tambahan
 Data tidak benar-benar real-time. Karena pengambilan dilakukan hari Minggu (pasar tutup), data yang digunakan adalah data historikal antara Maret hingga Juni untuk disimulasikan sebagai aliran data real-time.
