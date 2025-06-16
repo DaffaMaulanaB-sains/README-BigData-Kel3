@@ -135,7 +135,7 @@ CREATE TABLE stock_prices_cleaned (
   price FLOAT,
   volume BIGINT,
   timestamp TIMESTAMP
-);
+);--
 
 ---
 
